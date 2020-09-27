@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h2rcp2R1qZDQ00EZyfYl+c7m9TaTO0BvwyFqFGPHZ+jR9ItsDWGwjGujWRWj0P7nVOfSxZE1T0kfrQvcUCLoJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shirb\\Desktop\\מכון טל\\שנה ג\\סמסטר ב\\מערכות חלונות\\project\\project1\\PI\\PI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shirb\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\shirb\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\shirb\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
