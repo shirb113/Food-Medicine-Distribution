@@ -12,12 +12,6 @@ namespace DAL
         public ProjectContext(string c):base(c)
         { }
 
-
-        //public DbSet<Address> addresses { get; set; }
-
-
-        
-
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Distributors> Distributors { get; set;}
         public DbSet<WorkSchedule> WorkSchedules { get; set; }

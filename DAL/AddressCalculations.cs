@@ -97,54 +97,6 @@ namespace DAL
         }
 
 
-        /*
-     /// <summary>
-     /// מציאת קורדינאטות של כתובת 
-     /// </summary>
-     /// <param name="address"></param>
-     /// <returns></returns>
-     public async Task<double[]> GetLatLongFromAddress(Address address)
-     {
-         try
-         {
-             var contentAsJSON = await GetAdderssJson(address);
-             var json = JArray.Parse(contentAsJSON.ToString());
-             double latitude = double.Parse(json[0]["lat"].ToString());
-             double longitude = double.Parse(json[0]["lon"].ToString());
-             return new double[] { latitude, longitude };
-         }
-         catch (Exception exp)
-         {
-             throw exp;
-         }
-     }
-     private async Task<Place> GetAdderssJson(Address address)
-     {
-         string key = "3dafe75c090558";
-         string url = @"https://eu1.locationiq.com/v1/search.php?key=" + key + "&q=" + address.varification() + "&format=json";
-
-         object jasonObject = new object();
-         try
-         {
-             using (HttpClient client = new HttpClient())
-             {
-                 var content = new StringContent(jasonObject.ToString(), Encoding.UTF8, "applicaton/json");
-                 var response = await client.PostAsync(url, content);
-                 if (response != null)
-                 {
-                     var jasonString = await response.Content.ReadAsStringAsync();
-                     return JsonConvert.DeserializeObject<Place>(jasonString);
-                 }
-             }
-         }
-         catch (Exception)
-         {
-             throw new Exception("כתובת לא תקינה");
-         }
-         return null;
-     }
-     */
-
     }
 }
 
