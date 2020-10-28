@@ -1,1 +1,1 @@
-# WindowProject
+# WindowPackageProject
